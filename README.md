@@ -6,13 +6,14 @@ Code example used in the tutorial
 
 [Install and Configure Postfix as Send-Only with enforced TLS Encryption on Ubuntu 18.04 LTS](https://sebastian-stemmer.com/techblog/posts/install-and-configure-postfix-send-only-enforced-tls-encryption-ubuntu-1804-lts/)
 
+
 Install Postfix
 
 ```bash
 sudo apt-get install postfix
 ```
 
-Copy main.cf file to
+Copy `main.cf` file to
 
 ```bash
 /etc/postfix/
