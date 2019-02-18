@@ -18,6 +18,8 @@ Copy `main.cf` file to
 /etc/postfix/
 ```
 
+and adapt the parameter myhostname to the name of your machine.
+
 Restart Postfix
 
 ```bash
