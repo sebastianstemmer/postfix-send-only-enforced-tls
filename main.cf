@@ -37,7 +37,7 @@ smtp_tls_CAfile = /etc/ssl/certs/ca-certificates.crt
 # information on enabling SSL in the smtp client.
 
 smtpd_relay_restrictions = permit_mynetworks permit_sasl_authenticated defer_u$
-myhostname = glutexo
+myhostname = name-of-your-machine
 alias_maps = hash:/etc/aliases
 alias_database = hash:/etc/aliases
 myorigin = /etc/mailname
